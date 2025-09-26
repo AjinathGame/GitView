@@ -181,3 +181,8 @@
   font-size: 1rem;
   color: transparent;
 }
+
+#button{
+  margin-top: 40px;
+  padding: 10px 20px;
+}
