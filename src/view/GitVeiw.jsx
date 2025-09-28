@@ -70,6 +70,8 @@ const GitVeiw = () => {
         );
     }
 
+    document.title = `GitVeiw-${userName}`
+
     return (
         <div className='min-h-[100vh] overflow-y-hidden overflow-x-hidden w-screen flex flex-col justify-start items-center bg-black/90 '>
             <h1 className='mt-[70px] text-6xl font-bold text-white mb-[20px] '>Git<span className='text-red-600'>Veiw</span></h1>
